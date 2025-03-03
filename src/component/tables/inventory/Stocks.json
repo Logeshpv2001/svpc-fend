@@ -1,0 +1,119 @@
+[
+  {
+    "st_vID": "ST001",
+    "st_vClinicID": "CLINIC001",
+    "st_vCompany_Name": "Company A",
+    "st_vSupplier_Name": "Supplier X",
+    "del_i": 0,
+    "created_at": "2025-01-03T00:00:00",
+    "updated_at": "2025-01-03T00:00:00",
+    "materials": [
+      {
+        "stm_vID": "STM001",
+        "stm_vClinicID": "CLINIC001",
+        "stm_vSupplier_Name": "Supplier X",
+        "stm_vMaterial_Name": "Material A",
+        "stm_iMaterial_Size": "500g",
+        "stm_iMaterial_Total_Count": 100,
+        "stm_iUnit_Amount": 50,
+        "del_i": 0,
+        "created_at": "2025-01-03T00:00:00",
+        "updated_at": "2025-01-03T00:00:00"
+      },
+      {
+        "stm_vID": "STM002",
+        "stm_vClinicID": "CLINIC001",
+        "stm_vSupplier_Name": "Supplier X",
+        "stm_vMaterial_Name": "Material B",
+        "stm_iMaterial_Size": "1kg",
+        "stm_iMaterial_Total_Count": 200,
+        "stm_iUnit_Amount": 100,
+        "del_i": 0,
+        "created_at": "2025-01-03T00:00:00",
+        "updated_at": "2025-01-03T00:00:00"
+      }
+    ]
+  },
+  {
+    "st_vID": "ST002",
+    "st_vClinicID": "CLINIC002",
+    "st_vCompany_Name": "Company B",
+    "st_vSupplier_Name": "Supplier Y",
+    "del_i": 0,
+    "created_at": "2025-01-03T00:00:00",
+    "updated_at": "2025-01-03T00:00:00",
+    "materials": [
+      {
+        "stm_vID": "STM003",
+        "stm_vClinicID": "CLINIC002",
+        "stm_vSupplier_Name": "Supplier Y",
+        "stm_vMaterial_Name": "Material C",
+        "stm_iMaterial_Size": "250ml",
+        "stm_iMaterial_Total_Count": 150,
+        "stm_iUnit_Amount": 75,
+        "del_i": 0,
+        "created_at": "2025-01-03T00:00:00",
+        "updated_at": "2025-01-03T00:00:00"
+      },
+      {
+        "stm_vID": "STM004",
+        "stm_vClinicID": "CLINIC002",
+        "stm_vSupplier_Name": "Supplier Y",
+        "stm_vMaterial_Name": "Material D",
+        "stm_iMaterial_Size": "2kg",
+        "stm_iMaterial_Total_Count": 50,
+        "stm_iUnit_Amount": 500,
+        "del_i": 0,
+        "created_at": "2025-01-03T00:00:00",
+        "updated_at": "2025-01-03T00:00:00"
+      },
+      {
+        "stm_vID": "STM005",
+        "stm_vClinicID": "CLINIC002",
+        "stm_vSupplier_Name": "Supplier Y",
+        "stm_vMaterial_Name": "Material E",
+        "stm_iMaterial_Size": "500ml",
+        "stm_iMaterial_Total_Count": 300,
+        "stm_iUnit_Amount": 25,
+        "del_i": 0,
+        "created_at": "2025-01-03T00:00:00",
+        "updated_at": "2025-01-03T00:00:00"
+      }
+    ]
+  },
+  {
+    "st_vID": "ST003",
+    "st_vClinicID": "CLINIC003",
+    "st_vCompany_Name": "Company C",
+    "st_vSupplier_Name": "Supplier Z",
+    "del_i": 0,
+    "created_at": "2025-01-03T00:00:00",
+    "updated_at": "2025-01-03T00:00:00",
+    "materials": [
+      {
+        "stm_vID": "STM006",
+        "stm_vClinicID": "CLINIC003",
+        "stm_vSupplier_Name": "Supplier Z",
+        "stm_vMaterial_Name": "Material F",
+        "stm_iMaterial_Size": "250ml",
+        "stm_iMaterial_Total_Count": 150,
+        "stm_iUnit_Amount": 75,
+        "del_i": 0,
+        "created_at": "2025-01-03T00:00:00",
+        "updated_at": "2025-01-03T00:00:00"
+      },
+      {
+        "stm_vID": "STM007",
+        "stm_vClinicID": "CLINIC003",
+        "stm_vSupplier_Name": "Supplier Z",
+        "stm_vMaterial_Name": "Material G",
+        "stm_iMaterial_Size": "1kg",
+        "stm_iMaterial_Total_Count": 100,
+        "stm_iUnit_Amount": 150,
+        "del_i": 0,
+        "created_at": "2025-01-03T00:00:00",
+        "updated_at": "2025-01-03T00:00:00"
+      }
+    ]
+  }
+]

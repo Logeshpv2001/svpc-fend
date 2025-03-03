@@ -1,0 +1,12 @@
+.ant-table-thead > tr > th {
+  background-color: #075985 !important;
+  font-size: 18px !important;
+  color: white !important;
+  text-align: center !important;
+}
+.ant-table-tbody > tr > td {
+  font-size: 18px;
+}
+.ant-table-tbody , .ant-table-thead{
+  text-align: center;
+}

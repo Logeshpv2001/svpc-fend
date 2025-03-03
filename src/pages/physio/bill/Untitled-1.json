@@ -1,0 +1,19 @@
+{
+    "pb_vpatient_id": "SVPC20241231-PT005",
+    "pb_vclinicid": "SVPC20241213-CL001",
+    "pb_vname": "",
+    "pb_vphone": "",
+    "pb_iage": "",
+    "pb_eegender": "",
+    "pb_taddress": "",
+    "pb_vdate": "2025-01-02",
+    "pb_damt": 1000,
+    "pb_vwhobuyed": "SVPC1",
+    "pb_epaymethod": "",
+    "pb_ddis": 10,
+    "pb_inoofsit": 120,
+    "pb_dtodaypay": 100,
+    "pb_dbaltopay": 800,
+    "pb_pmethod": "cash",
+    "pb_rby": "test"
+}

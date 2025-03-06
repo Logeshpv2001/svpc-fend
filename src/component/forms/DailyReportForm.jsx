@@ -31,7 +31,7 @@ const DailyReportForm = ({ setIsModalVisible }) => {
       );
       setFormData((prev) => ({
         ...prev,
-        adr_collon: response.data.response.total_amt,
+        adr_dcoll: response.data.response.total_amt,
       }));
     } catch (error) {
       console.log(error);
@@ -45,7 +45,7 @@ const DailyReportForm = ({ setIsModalVisible }) => {
       );
       setFormData((prev) => ({
         ...prev,
-        adr_dcoll: response.data.response.total_amt,
+        adr_collon: response.data.response.total_amt,
       }));
     } catch (error) {
       console.log(error);
@@ -96,9 +96,15 @@ const DailyReportForm = ({ setIsModalVisible }) => {
           adr_ortho_male: response?.data?.response["Ortho"]?.male_count || 0,
           adr_neuro_fmale: response?.data?.response["Neuro"]?.female_count || 0,
           adr_neuro_male: response?.data?.response["Neuro"]?.male_count || 0,
-          adr_pfd_fmale: response?.data?.response["Pelvic Floor Dysfunction"]?.female_count || 0,  
-          adr_pfd_male: response?.data?.response["Pelvic Floor Dysfunction"]?.male_count || 0,
-          adr_tcemsus: response?.data?.response["Total Census Patients"]?.service_count || 0,
+          adr_pfd_fmale:
+            response?.data?.response["Pelvic Floor Dysfunction"]
+              ?.female_count || 0,
+          adr_pfd_male:
+            response?.data?.response["Pelvic Floor Dysfunction"]?.male_count ||
+            0,
+          adr_tcemsus:
+            response?.data?.response["Total Census Patients"]?.service_count ||
+            0,
         }));
       }
     } catch (error) {

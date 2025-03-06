@@ -52,8 +52,10 @@ const Login = () => {
           u_vEmail,
           u_vPassword,
         });
+        console.log(response);
         if (response.data.status === 200) {
           message.success(response.data.message);
+          console.log(response);
         } else {
           message.error(response.data.message);
         }

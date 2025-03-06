@@ -1,10 +1,10 @@
 import axios from "axios";
 
 const AxiosInstance = axios.create({
-  baseURL: "http://localhost:4006",
+  // baseURL: "http://localhost:4006",
   // baseURL: "https://qsistest.quantumsharq.com/api",
   // baseURL: "https://svpc.qsisphysio.com/api",
-  // baseURL: "https://svpc-backend-v2gw.onrender.com" /*Render Link */,
+  baseURL: "https://svpc-backend-v2gw.onrender.com" /*Render Link */,
 });
 
 export default AxiosInstance;
